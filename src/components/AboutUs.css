@@ -55,6 +55,7 @@
 
 .about-img > img {
     width: 100%;
+    height: fit-content;
     border-radius: 20px 0 20px 0;
     position: sticky;
     top: 85px

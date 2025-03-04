@@ -142,7 +142,7 @@ export default function HomeHeader() {
                   <Link to={`/${lang}/projects/basalt-wool`}>{lang === "en" ? "BASALT WOOL" : "Базальтовая вата"}</Link>
                   <Link to={`/${lang}/projects/basfiber-trade`}>{lang === "en" ? "BASFIBER TRADE" : "Торговля бастволокном"}</Link>
                   <Link to={`/${lang}/projects/qoraqalpoq-basalt-wool`}>
-                    {lang === "en" ? "QORAQALPOQ BASALTWOOL" : "Qoraqalpoq базальтоватная вата"}
+                    {lang === "en" ? "QORAQALPOQ BASALTWOOL" : "КОРАКАЛПОК базальтоватная вата"}
                   </Link>
                   <Link to={`/${lang}/projects/basalt-quarry`}>{lang === "en" ? "BASALT QUARRY" : "Базальтовый карьер"}</Link>
                 </div>

@@ -75,42 +75,55 @@ export default function RootLayout() {
               <NavLink to="/">{lang === "en" ? "Home" : "Главный"}</NavLink>
             </li>
             <li>
-              <NavLink to={`/${lang}/projects`}>{lang === "en" ? "Projects" : "Проекты"}</NavLink>
+              <NavLink to={`/${lang}/projects`}>
+                {lang === "en" ? "Projects" : "Проекты"}
+              </NavLink>
               <div className="navigation-drop">
-                <Link to={`/${lang}/projects/rockfiber`}
+                <Link
+                  to={`/${lang}/projects/rockfiber`}
                   onClick={() => navigationHandler()}
                 >
                   {lang === "en" ? "Rokfiber" : "Рокфайбер"}
                 </Link>
-                <Link to={`/${lang}/projects/geobasalt-products`}
+                <Link
+                  to={`/${lang}/projects/geobasalt-products`}
                   onClick={() => navigationHandler()}
                 >
-                  {lang === "en" ? "GEOBASALT PRODUCTS" : "Геобазальтовые изделия"}
+                  {lang === "en"
+                    ? "GEOBASALT PRODUCTS"
+                    : "Геобазальтовые изделия"}
                 </Link>
-                <Link to={`/${lang}/projects/ecobasalt-group`}
+                <Link
+                  to={`/${lang}/projects/ecobasalt-group`}
                   onClick={() => navigationHandler()}
                 >
                   {lang === "en" ? "ECOBASALT GROUP" : "Экобазальтовая группа"}
                 </Link>
-                <Link to={`/${lang}/projects/goldfiber-pro`}
+                <Link
+                  to={`/${lang}/projects/goldfiber-pro`}
                   onClick={() => navigationHandler()}
                 >
                   {lang === "en" ? "GOLDFIBER PRO" : "Голдфайбер про"}
                 </Link>
-                <Link to={`/${lang}/projects/basalt-wool`}
+                <Link
+                  to={`/${lang}/projects/basalt-wool`}
                   onClick={() => navigationHandler()}
                 >
                   {lang === "en" ? "BASALT WOOL" : "Базальтовая вата"}
                 </Link>
-                <Link to={`/${lang}/projects/basfiber-trade`}
+                <Link
+                  to={`/${lang}/projects/basfiber-trade`}
                   onClick={() => navigationHandler()}
                 >
                   {lang === "en" ? "BASFIBER TRADE" : "Торговля бастволокном"}
                 </Link>
-                <Link to={`/${lang}/projects/qoraqalpoq-basalt-wool`}
+                <Link
+                  to={`/${lang}/projects/qoraqalpoq-basalt-wool`}
                   onClick={() => navigationHandler()}
                 >
-                  {lang === "en" ? "QORAQALPOQ BASALTWOOL" : "Qoraqalpoq базальтоватная вата"}
+                  {lang === "en"
+                    ? "QORAQALPOQ BASALTWOOL"
+                    : "КОРАКАЛПОК базальтоватная вата"}
                 </Link>
                 <Link
                   to={`/${lang}/projects/basalt-quarry`}
@@ -121,63 +134,87 @@ export default function RootLayout() {
               </div>
             </li>
             <li>
-              <NavLink to={`/${lang}/solutions`}>{lang === "en" ? "Solutions" : "Решения"}</NavLink>
+              <NavLink to={`/${lang}/solutions`}>
+                {lang === "en" ? "Solutions" : "Решения"}
+              </NavLink>
               <div className="navigation-drop">
                 <Link
                   to={`/${lang}/solutions/production-of-basalt-continuous-fiber`}
                   onClick={() => navigationHandler()}
                 >
-                  {lang === "en" ? "production of Basalt continuous fiber" : "Производство базальтового волокна "}
+                  {lang === "en"
+                    ? "production of Basalt continuous fiber"
+                    : "Производство базальтового волокна "}
                 </Link>
-                <Link 
+                <Link
                   to={`/${lang}/solutions/production-of-basalt-continuous-rockwool`}
-                  onClick={()=>navigationHandler()}
+                  onClick={() => navigationHandler()}
                 >
-                    {lang === "en" ? "production of Basalt rockwool" : "Производство базальтового каменного волокна"}
+                  {lang === "en"
+                    ? "production of Basalt rockwool"
+                    : "Производство базальтового каменного волокна"}
                 </Link>
                 <Link
                   to={`/${lang}/solutions/production-of-basalt-continuous-pipes`}
                   onClick={() => navigationHandler()}
                 >
-                  {lang === "en" ? "production of BRP continuous pipes" : "Производство непрерывных труб BRP"}
+                  {lang === "en"
+                    ? "production of BRP continuous pipes"
+                    : "Производство непрерывных труб BRP"}
                 </Link>
                 <Link
                   to={`/${lang}/solutions/production-of-basalt-continuous-chopped-strand`}
                   onClick={() => navigationHandler()}
                 >
-                 {lang === "en" ? "production of Basalt continuous chopped strand" : "Производство базальтовой непрерывной рубленой нити"}
+                  {lang === "en"
+                    ? "production of Basalt continuous chopped strand"
+                    : "Производство базальтовой непрерывной рубленой нити"}
                 </Link>
                 <Link
                   to={`/${lang}/solutions/production-of-basalt-continuous-reinforcement-bars`}
                   onClick={() => navigationHandler()}
                 >
-                  {lang === "en" ? "production of Basalt reinforcement bars" : "Производство базальтовой арматуры"}
+                  {lang === "en"
+                    ? "production of Basalt reinforcement bars"
+                    : "Производство базальтовой арматуры"}
                 </Link>
                 <Link
                   to={`/${lang}/solutions/production-of-basalt-continuous-geogrids`}
                   onClick={() => navigationHandler()}
                 >
-                  {lang === "en" ? "production of Basalt geogrids and facade mesh" : "Производство базальтовых георешеток и лачевой сетки"}
+                  {lang === "en"
+                    ? "production of Basalt geogrids and facade mesh"
+                    : "Производство базальтовых георешеток и лачевой сетки"}
                 </Link>
                 <Link
                   to={`/${lang}/solutions/production-of-basalt-continuous-fabric`}
                   onClick={() => navigationHandler()}
                 >
-                  {lang === "en" ? "production of Basalt fabric" : "производство базальтовой ткани"}
+                  {lang === "en"
+                    ? "production of Basalt fabric"
+                    : "производство базальтовой ткани"}
                 </Link>
               </div>
             </li>
             <li>
-              <NavLink to={`/${lang}/news`}>{lang === "en" ? "News" : "Новости"}</NavLink>
+              <NavLink to={`/${lang}/news`}>
+                {lang === "en" ? "News" : "Новости"}
+              </NavLink>
             </li>
             <li>
-              <NavLink to={`/${lang}/partners`}>{lang === "en" ? "Partners" : "Партнеры"}</NavLink>
+              <NavLink to={`/${lang}/partners`}>
+                {lang === "en" ? "Partners" : "Партнеры"}
+              </NavLink>
             </li>
             <li>
-              <NavLink to={`/${lang}/about-us`}>{lang === "en" ? "About Us" : "О нас"}</NavLink>
+              <NavLink to={`/${lang}/about-us`}>
+                {lang === "en" ? "About Us" : "О нас"}
+              </NavLink>
             </li>
             <li>
-              <NavLink to={`/${lang}/contact-us`}>{lang === "en" ? "Contact Us" : "Связаться"}</NavLink>
+              <NavLink to={`/${lang}/contact-us`}>
+                {lang === "en" ? "Contact Us" : "Связаться"}
+              </NavLink>
             </li>
             <li>
               <div className="lang-container">
@@ -201,71 +238,111 @@ export default function RootLayout() {
 
           {/* mobile menu */}
 
-          <div className="menuBtn" style={{display: "block !important"}}>
+          <div className="menuBtn" style={{ display: "block !important" }}>
             {menu ? (
               <IoMdClose className="btn" onClick={() => setMenu(!menu)} />
             ) : (
-             <LuMenu className="btn" onClick={() => setMenu(!menu)} />
+              <LuMenu className="btn" onClick={() => setMenu(!menu)} />
             )}
           </div>
 
-          {menu && <div className="menu-container">
-          <div className="menu">
-              <NavLink to={`/${lang}`} className="menu-item" onClick={() => closeMenu()}>
-                {lang === "en" ? "Home" : "Главный"}
-              </NavLink>
-              <NavLink
-                to={`/${lang}/projects`}
-                className="menu-item"
-                onClick={() => closeMenu()}
+          {menu && (
+            <div className="menu-container">
+              <div className="menu">
+                <NavLink
+                  to={`/${lang}`}
+                  className="menu-item"
+                  onClick={() => closeMenu()}
                 >
-                {lang === "en" ? "Projects" : "Проекты"}
-              </NavLink>
-              <NavLink
-                to={`/${lang}/solutions`}
-                className="menu-item"
-                onClick={() => closeMenu()}
+                  {lang === "en" ? "Home" : "Главный"}
+                </NavLink>
+                <NavLink
+                  to={`/${lang}/projects`}
+                  className="menu-item"
+                  onClick={() => closeMenu()}
                 >
-                {lang === "en" ? "Solutions" : "Решения"}
-              </NavLink>
-              <NavLink
-                to={`/${lang}/news`}
-                className="menu-item"
-                onClick={() => closeMenu()}
+                  {lang === "en" ? "Projects" : "Проекты"}
+                </NavLink>
+                <NavLink
+                  to={`/${lang}/solutions`}
+                  className="menu-item"
+                  onClick={() => closeMenu()}
                 >
-                {lang === "en" ? "News" : "Новости"}
-              </NavLink>
-              <NavLink
-                to={`/${lang}/partners`}
-                className="menu-item"
-                onClick={() => closeMenu()}
+                  {lang === "en" ? "Solutions" : "Решения"}
+                </NavLink>
+                <NavLink
+                  to={`/${lang}/news`}
+                  className="menu-item"
+                  onClick={() => closeMenu()}
                 >
-                {lang === "en" ? "Partners" : "Партнеры"}
-              </NavLink>
-              <NavLink
-                to={`/${lang}/about-us`}
-                className="menu-item"
-                onClick={() => closeMenu()}
+                  {lang === "en" ? "News" : "Новости"}
+                </NavLink>
+                <NavLink
+                  to={`/${lang}/partners`}
+                  className="menu-item"
+                  onClick={() => closeMenu()}
                 >
-                {lang === "en" ? "About Us" : "О нас"}
-              </NavLink>
-              <NavLink
-                to={`/${lang}/contact-us`}
-                className="menu-item"
-                onClick={() => closeMenu()}
+                  {lang === "en" ? "Partners" : "Партнеры"}
+                </NavLink>
+                <NavLink
+                  to={`/${lang}/about-us`}
+                  className="menu-item"
+                  onClick={() => closeMenu()}
                 >
-                {lang === "en" ? "Contact Us" : "Связаться"}
-              </NavLink>
+                  {lang === "en" ? "About Us" : "О нас"}
+                </NavLink>
+                <NavLink
+                  to={`/${lang}/contact-us`}
+                  className="menu-item"
+                  onClick={() => closeMenu()}
+                >
+                  {lang === "en" ? "Contact Us" : "Связаться"}
+                </NavLink>
+              </div>
             </div>
-          </div>}
+          )}
           {/* mobile menu end */}
-
         </div>
         <span className="header-background">
-          {(link.pathname.includes("/projects") || link.pathname.includes("/solutions") || link.pathname.includes("/about-us")) || <img src={entrance} alt="" onClick={() => navigate("/")} />}
-          {link.pathname.includes("/projects") && <video src={projBack} autoPlay loop muted preload="auto" poster={projBackPreload} playsInline></video>}
-          {link.pathname.includes("/solutions") && <video src={solutionBack} autoPlay loop muted preload="auto" poster={solBackPreload} playsInline></video>}
-          {link.pathname.includes("/about-us") && <video src={aboutBack} autoPlay loop muted preload="auto" poster={aboutBackPreload} playsInline style={{objectPosition: "center 40%"}}></video>}
+          {link.pathname.includes("/projects") ||
+            link.pathname.includes("/solutions") ||
+            link.pathname.includes("/about-us") || (
+              <img src={entrance} alt="" onClick={() => navigate("/")} />
+            )}
+          {link.pathname.includes("/projects") && (
+            <video
+              src={projBack}
+              autoPlay
+              loop
+              muted
+              preload="auto"
+              poster={projBackPreload}
+              playsInline
+            ></video>
+          )}
+          {link.pathname.includes("/solutions") && (
+            <video
+              src={solutionBack}
+              autoPlay
+              loop
+              muted
+              preload="auto"
+              poster={solBackPreload}
+              playsInline
+            ></video>
+          )}
+          {link.pathname.includes("/about-us") && (
+            <video
+              src={aboutBack}
+              autoPlay
+              loop
+              muted
+              preload="auto"
+              poster={aboutBackPreload}
+              playsInline
+              style={{ objectPosition: "center 40%" }}
+            ></video>
+          )}
           <div>
             <h1 style={{ textTransform: "capitalize" }}>
               {link?.pathname?.split("/")?.[2]}
@@ -298,66 +375,130 @@ export default function RootLayout() {
               <NavLink to="/">{lang === "en" ? "Home" : "Главный"}</NavLink>
             </li>
             <li>
-              <NavLink to={`/${lang}/projects`}>{lang === "en" ? "Projects" : "Проекты"}</NavLink>
+              <NavLink to={`/${lang}/projects`}>
+                {lang === "en" ? "Projects" : "Проекты"}
+              </NavLink>
               <div className="navigation-drop">
-                <Link to={`/${lang}/projects/rockfiber`}>{lang === "en" ? "Rokfiber" : "Рокфайбер"}</Link>
-                <Link to={`/${lang}/projects/geobasalt-products`}>{lang === "en" ? "GEOBASALT PRODUCTS" : "Геобазальтовые изделия"}</Link>
-                <Link to={`/${lang}/projects/ecobasalt-group`}>{lang === "en" ? "ECOBASALT GROUP" : "Экобазальтовая группа"}</Link>
-                <Link to={`/${lang}/projects/goldfiber-pro`}>{lang === "en" ? "GOLDFIBER PRO" : "Голдфайбер про"}</Link>
-                <Link to={`/${lang}/projects/basalt-wool`}>{lang === "en" ? "BASALT WOOL" : "Базальтовая вата"}</Link>
-                <Link to={`/${lang}/projects/basfiber-trade`}>{lang === "en" ? "BASFIBER TRADE" : "Торговля бастволокном"}</Link>
-                <Link to={`/${lang}/projects/qoraqalpoq-basalt-wool`}>{lang === "en" ? "QORAQALPOQ BASALTWOOL" : "Qoraqalpoq базальтоватная вата"}</Link>
+                <Link to={`/${lang}/projects/rockfiber`}>
+                  {lang === "en" ? "Rokfiber" : "Рокфайбер"}
+                </Link>
+                <Link to={`/${lang}/projects/geobasalt-products`}>
+                  {lang === "en"
+                    ? "GEOBASALT PRODUCTS"
+                    : "Геобазальтовые изделия"}
+                </Link>
+                <Link to={`/${lang}/projects/ecobasalt-group`}>
+                  {lang === "en" ? "ECOBASALT GROUP" : "Экобазальтовая группа"}
+                </Link>
+                <Link to={`/${lang}/projects/goldfiber-pro`}>
+                  {lang === "en" ? "GOLDFIBER PRO" : "Голдфайбер про"}
+                </Link>
+                <Link to={`/${lang}/projects/basalt-wool`}>
+                  {lang === "en" ? "BASALT WOOL" : "Базальтовая вата"}
+                </Link>
+                <Link to={`/${lang}/projects/basfiber-trade`}>
+                  {lang === "en" ? "BASFIBER TRADE" : "Торговля бастволокном"}
+                </Link>
+                <Link to={`/${lang}/projects/qoraqalpoq-basalt-wool`}>
+                  {lang === "en"
+                    ? "QORAQALPOQ BASALTWOOL"
+                    : "КОРАКАЛПОК базальтоватная вата"}
+                </Link>
                 <Link to={`/${lang}/projects/basalt-quarry`}>
                   {lang === "en" ? "BASALT QUARRY" : "Базальтовый карьер"}
                 </Link>
               </div>
             </li>
             <li>
-              <NavLink to={`/${lang}/solutions`}>{lang === "en" ? "Solutions" : "Решения"}</NavLink>
+              <NavLink to={`/${lang}/solutions`}>
+                {lang === "en" ? "Solutions" : "Решения"}
+              </NavLink>
               <div className="navigation-drop">
-                <Link to={`/${lang}/solutions/production-of-basalt-continuous-fiber`}>
-                  {lang === "en" ? "production of Basalt continuous fiber" : "Производство базальтового волокна "}
+                <Link
+                  to={`/${lang}/solutions/production-of-basalt-continuous-fiber`}
+                >
+                  {lang === "en"
+                    ? "production of Basalt continuous fiber"
+                    : "Производство базальтового волокна "}
                 </Link>
-                <Link to={`/${lang}/solutions/production-of-basalt-continuous-rockwool`}>
-                  {lang === "en" ? "production of Basalt rockwool" : "Производство базальтового каменного волокна"}
+                <Link
+                  to={`/${lang}/solutions/production-of-basalt-continuous-rockwool`}
+                >
+                  {lang === "en"
+                    ? "production of Basalt rockwool"
+                    : "Производство базальтового каменного волокна"}
                 </Link>
-                <Link to={`/${lang}/solutions/production-of-basalt-continuous-pipes`}>
-                  {lang === "en" ? "production of BRP continuous pipes" : "Производство непрерывных труб BRP"}
+                <Link
+                  to={`/${lang}/solutions/production-of-basalt-continuous-pipes`}
+                >
+                  {lang === "en"
+                    ? "production of BRP continuous pipes"
+                    : "Производство непрерывных труб BRP"}
                 </Link>
-                <Link to={`/${lang}/solutions/production-of-basalt-continuous-chopped-strand`}>
-                  {lang === "en" ? "production of Basalt continuous chopped strand" : "Производство базальтовой непрерывной рубленой нити"}
+                <Link
+                  to={`/${lang}/solutions/production-of-basalt-continuous-chopped-strand`}
+                >
+                  {lang === "en"
+                    ? "production of Basalt continuous chopped strand"
+                    : "Производство базальтовой непрерывной рубленой нити"}
                 </Link>
-                <Link to={`/${lang}/solutions/production-of-basalt-continuous-reinforcement-bars`}>
-                  {lang === "en" ? "production of Basalt reinforcement bars" : "Производство базальтовой арматуры"}
+                <Link
+                  to={`/${lang}/solutions/production-of-basalt-continuous-reinforcement-bars`}
+                >
+                  {lang === "en"
+                    ? "production of Basalt reinforcement bars"
+                    : "Производство базальтовой арматуры"}
                 </Link>
-                <Link to={`/${lang}/solutions/production-of-basalt-continuous-geogrids`}>
-                  {lang === "en" ? "production of Basalt geogrids and facade mesh" : "Производство базальтовых георешеток и лачевой сетки"}
+                <Link
+                  to={`/${lang}/solutions/production-of-basalt-continuous-geogrids`}
+                >
+                  {lang === "en"
+                    ? "production of Basalt geogrids and facade mesh"
+                    : "Производство базальтовых георешеток и лачевой сетки"}
                 </Link>
-                <Link to={`/${lang}/solutions/production-of-basalt-continuous-fabric`}>
-                  {lang === "en" ? "production of Basalt fabric" : "производство базальтовой ткани"}
+                <Link
+                  to={`/${lang}/solutions/production-of-basalt-continuous-fabric`}
+                >
+                  {lang === "en"
+                    ? "production of Basalt fabric"
+                    : "производство базальтовой ткани"}
                 </Link>
               </div>
             </li>
             <li>
-              <NavLink to={`/${lang}/news`}>{lang === "en" ? "News" : "Новости"}</NavLink>
+              <NavLink to={`/${lang}/news`}>
+                {lang === "en" ? "News" : "Новости"}
+              </NavLink>
             </li>
             <li>
-              <NavLink to={`/${lang}/partners`}>{lang === "en" ? "Partners" : "Партнеры"}</NavLink>
+              <NavLink to={`/${lang}/partners`}>
+                {lang === "en" ? "Partners" : "Партнеры"}
+              </NavLink>
             </li>
             <li>
-              <NavLink to={`/${lang}/about-us`}>{lang === "en" ? "About Us" : "О нас"}</NavLink>
+              <NavLink to={`/${lang}/about-us`}>
+                {lang === "en" ? "About Us" : "О нас"}
+              </NavLink>
             </li>
             <li>
-              <NavLink to={`/${lang}/contact-us`}>{lang === "en" ? "Contact Us" : "Связаться"}</NavLink>
+              <NavLink to={`/${lang}/contact-us`}>
+                {lang === "en" ? "Contact Us" : "Связаться"}
+              </NavLink>
             </li>
             <li>
               <div className="lang-container">
-                <img src={lang === "en" ? en : ru } alt="" />
-                <p style={{textTransform: "uppercase", color: "black"}}>{lang === "en" ? "EN" : "RU"}</p>
+                <img src={lang === "en" ? en : ru} alt="" />
+                <p style={{ textTransform: "uppercase", color: "black" }}>
+                  {lang === "en" ? "EN" : "RU"}
+                </p>
               </div>
               <div className="navigation-drop">
-                <Link to={nextLang} replace={true} onClick={() => langHandler(lang === "en" ? "ru" : "en")}>
-                  <img src={lang === "en" ? ru : en } alt="" />
+                <Link
+                  to={nextLang}
+                  replace={true}
+                  onClick={() => langHandler(lang === "en" ? "ru" : "en")}
+                >
+                  <img src={lang === "en" ? ru : en} alt="" />
                   <p>{lang === "en" ? "RU" : "EN"}</p>
                 </Link>
               </div>
@@ -367,71 +508,77 @@ export default function RootLayout() {
 
         <div>
           <img src={logo} alt="" onClick={() => navigate("/")} />
-          
-          <div className="menuBtn" style={{display: "block !important"}}>
-          {menu ? (
-            <IoMdClose className="btn" onClick={() => setMenu(!menu)} />
-          ) : (
-            <LuMenu className="btn" onClick={() => setMenu(!menu)} />
-          )}
-        </div>
+
+          <div className="menuBtn" style={{ display: "block !important" }}>
+            {menu ? (
+              <IoMdClose className="btn" onClick={() => setMenu(!menu)} />
+            ) : (
+              <LuMenu className="btn" onClick={() => setMenu(!menu)} />
+            )}
+          </div>
 
           {/* mobile menu */}
-          {menu && <div className="menu-container">
-          <div className="menu">
-              <NavLink to={`/${lang}`} className="menu-item" onClick={() => closeMenu()}>
-                {lang === "en" ? "Home" : "Главный"}
-              </NavLink>
-              <NavLink
-                to={`/${lang}/projects`}
-                className="menu-item"
-                onClick={() => closeMenu()}
+          {menu && (
+            <div className="menu-container">
+              <div className="menu">
+                <NavLink
+                  to={`/${lang}`}
+                  className="menu-item"
+                  onClick={() => closeMenu()}
                 >
-                {lang === "en" ? "Projects" : "Проекты"}
-              </NavLink>
-              <NavLink
-                to={`/${lang}/solutions`}
-                className="menu-item"
-                onClick={() => closeMenu()}
+                  {lang === "en" ? "Home" : "Главный"}
+                </NavLink>
+                <NavLink
+                  to={`/${lang}/projects`}
+                  className="menu-item"
+                  onClick={() => closeMenu()}
                 >
-                {lang === "en" ? "Solutions" : "Решения"}
-              </NavLink>
-              <NavLink
-                to={`/${lang}/news`}
-                className="menu-item"
-                onClick={() => closeMenu()}
+                  {lang === "en" ? "Projects" : "Проекты"}
+                </NavLink>
+                <NavLink
+                  to={`/${lang}/solutions`}
+                  className="menu-item"
+                  onClick={() => closeMenu()}
                 >
-                {lang === "en" ? "News" : "Новости"}
-              </NavLink>
-              <NavLink
-                to={`/${lang}/partners`}
-                className="menu-item"
-                onClick={() => closeMenu()}
+                  {lang === "en" ? "Solutions" : "Решения"}
+                </NavLink>
+                <NavLink
+                  to={`/${lang}/news`}
+                  className="menu-item"
+                  onClick={() => closeMenu()}
                 >
-                {lang === "en" ? "Partners" : "Партнеры"}
-              </NavLink>
-              <NavLink
-                to={`/${lang}/about-us`}
-                className="menu-item"
-                onClick={() => closeMenu()}
+                  {lang === "en" ? "News" : "Новости"}
+                </NavLink>
+                <NavLink
+                  to={`/${lang}/partners`}
+                  className="menu-item"
+                  onClick={() => closeMenu()}
                 >
-                {lang === "en" ? "About Us" : "О нас"}
-              </NavLink>
-              <NavLink
-                to={`/${lang}/contact-us`}
-                className="menu-item"
-                onClick={() => closeMenu()}
+                  {lang === "en" ? "Partners" : "Партнеры"}
+                </NavLink>
+                <NavLink
+                  to={`/${lang}/about-us`}
+                  className="menu-item"
+                  onClick={() => closeMenu()}
                 >
-                {lang === "en" ? "Contact Us" : "Связаться"}
-              </NavLink>
+                  {lang === "en" ? "About Us" : "О нас"}
+                </NavLink>
+                <NavLink
+                  to={`/${lang}/contact-us`}
+                  className="menu-item"
+                  onClick={() => closeMenu()}
+                >
+                  {lang === "en" ? "Contact Us" : "Связаться"}
+                </NavLink>
+              </div>
             </div>
-        </div>}
+          )}
           {/* mobile menu end */}
-      </div>
+        </div>
       </div>
       <Outlet />
       <Footer />
-     {link?.pathname?.includes("/contact-us") || <FixedBtn />}
+      {link?.pathname?.includes("/contact-us") || <FixedBtn />}
     </>
   );
 }

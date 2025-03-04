@@ -1,4 +1,9 @@
 @media screen and (max-width: 992px) {
+
+  #root {
+  overflow: hidden;
+}
+
   .main-header > div {
     width: 90% !important;
   }
