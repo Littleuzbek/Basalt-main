@@ -17,8 +17,9 @@ export default function AboutProduct() {
     <>
       <Helmet>
         <title>
-          {(lang === "en" ? product?.general?.p.en : product?.general?.p.ru) ||
-            product?.general?.title}
+          {(lang === "en"
+            ? product?.general?.p?.en
+            : product?.general?.p?.ru) || product?.general?.title?.en}
         </title>
         <meta name="description" content="" />
       </Helmet>
@@ -32,7 +33,7 @@ export default function AboutProduct() {
                 : product?.general?.title?.ru}
             </h1>
             {/* for paragraphs */}
-            {product?.general?.p.en &&
+            {product?.general?.p?.en &&
               (lang === "en"
                 ? product?.general?.p?.en
                 : product?.general?.p?.ru
@@ -137,7 +138,10 @@ export default function AboutProduct() {
                     <>
                       <p>{product?.adv?.list?.p2}</p>
                       <ul>
-                        {product?.adv?.list?.ulListItem2?.map((item, index) => (
+                        {(lang === "en"
+                          ? product?.adv?.list?.ulListItem2?.en
+                          : product?.adv?.list?.ulListItem2?.ru
+                        )?.map((item, index) => (
                           <li key={item + index}>{item}</li>
                         ))}
                       </ul>
@@ -146,35 +150,29 @@ export default function AboutProduct() {
                 </div>
               )}
 
-              {product?.adv?.list?.olListTitle && (
-                <div className="list" key={product?.adv?.list?.title}>
+              {product?.adv?.list?.olListTitle?.en && (
+                <div className="list" key={product?.adv?.list?.title?.en}>
                   <Fragment>
                     <ol>
-                      {product?.adv?.list?.olListTitle?.map((title, index) => (
+                      {(lang === "en"
+                        ? product?.adv?.list?.olListTitle?.en
+                        : product?.adv?.list?.olListTitle?.ru
+                      )?.map((title, index) => (
                         <li key={title + index}>
                           <h3>{title}</h3>
                           <ul>
-                            {product?.adv?.list?.olListItem?.[index]?.map(
-                              (item) => (
-                                <li>{item}</li>
-                              )
-                            )}
+                            {(lang === "en"
+                              ? product?.adv?.list?.olListItem?.en
+                              : product?.adv?.list?.olListItem?.ru)?.[
+                              index
+                            ]?.map((item) => (
+                              <li>{item}</li>
+                            ))}
                           </ul>
                         </li>
                       ))}
                     </ol>
                   </Fragment>
-
-                  {/* {product?.adv?.list?.listTitle2 === null && (
-                <>
-                <p>{product?.adv?.list?.p2}</p>
-                <ul>
-                {product?.adv?.list?.listItem2?.map((item, index) => (
-                  <li key={item + index}>{item}</li>
-                  ))}
-                  </ul>
-                  </>
-                )} */}
                 </div>
               )}
             </div>

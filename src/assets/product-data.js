@@ -1013,12 +1013,12 @@ export const basalt_qqwool = {
           "ENGINEERING: Basalt wool is used in engineering for thermal insulation of various mechanisms and equipment.",
         ],
         ru: [
-            "СТРОИТЕЛЬСТВО: Базальтовая вата широко применяется в строительстве для теплоизоляции крыш, стен, полов, фундаментов и вентилируемых фасадов. Также применяется в качестве звукоизоляции стен и потолков;",
-            "ПРОМЫШЛЕННОСТЬ: Базальтовая вата применяется в промышленности для теплоизоляции трубопроводов, котлов, парогенераторов, печей и другого оборудования. Также может применяться для звукоизоляции в промышленных помещениях:",
-            "АВТОМОБИЛЬНАЯ промышленность: Базальтовая вата применяется для теплоизоляции двигателей автомобилей, тормозных систем и выхлопных систем. Также может применяться для звукоизоляции салона автомобиля;",
-            "ЭНЕРГЕТИКА: Базальтовая вата применяется в энергетике для теплоизоляции трубопроводов, вентиляционных систем и другого оборудования;",
-            "СУДОСТРОЕНИЕ: Базальтовая вата применяется в судостроении для теплоизоляции стен, потолков и других частей судна. Также может применяться для звукоизоляции внутри судов;",
-            "МАШИНОСТРОЕНИЕ: Базальтовая вата применяется в машиностроении для теплоизоляции различных механизмов и оборудование." 
+          "СТРОИТЕЛЬСТВО: Базальтовая вата широко применяется в строительстве для теплоизоляции крыш, стен, полов, фундаментов и вентилируемых фасадов. Также применяется в качестве звукоизоляции стен и потолков;",
+          "ПРОМЫШЛЕННОСТЬ: Базальтовая вата применяется в промышленности для теплоизоляции трубопроводов, котлов, парогенераторов, печей и другого оборудования. Также может применяться для звукоизоляции в промышленных помещениях:",
+          "АВТОМОБИЛЬНАЯ промышленность: Базальтовая вата применяется для теплоизоляции двигателей автомобилей, тормозных систем и выхлопных систем. Также может применяться для звукоизоляции салона автомобиля;",
+          "ЭНЕРГЕТИКА: Базальтовая вата применяется в энергетике для теплоизоляции трубопроводов, вентиляционных систем и другого оборудования;",
+          "СУДОСТРОЕНИЕ: Базальтовая вата применяется в судостроении для теплоизоляции стен, потолков и других частей судна. Также может применяться для звукоизоляции внутри судов;",
+          "МАШИНОСТРОЕНИЕ: Базальтовая вата применяется в машиностроении для теплоизоляции различных механизмов и оборудование.",
         ],
       },
     },
@@ -1091,52 +1091,99 @@ export const solFiber = {
   ],
   videos: [fiberVid],
   general: {
-    title: "Production of Basalt continuous fiber",
+    title: {
+      en: "Production of Basalt continuous fiber",
+      ru: "Производство базальтового непрерывного волокна",
+    },
     p: null,
   },
   adv: {
     list: {
-      title:
-        "TECHNOLOGICAL COMPLEX FOR THE PRODUCTION OF BASALT CONTINUOUS FIBER",
-      olListTitle: [
-        "Technological furnace equipment:",
-        "Gas-Exhaust-Air systems (GEAS):",
-        "Complete plant automation system (PMS):",
-        "Monorail Loader system (MLS)",
-        "Furnace loader system (FLS)",
-        "Sizing Distribution System (SDS)",
-        "Chemical reactor (CHR)",
-        "Raw materials handling system (RMHS)",
-        "Waste Water Treatment and Supply (WWTS)",
-        "Compressed air system (CAS)",
-        "Water Cooling Systems (WCS)",
-        "Product drier system",
-        "Laboratory complex (LAB)",
-      ],
-      p: "The production complex contains different components that form units jointly working as one system. Each unit has its own designation and role in the production process. Here is brief description of the units:",
-      olListItem: [
-        [
-          "Furnace refractory materials;",
-          "Furnace lining and isolation;",
-          "Furnace frame module and auxiliary parts;",
-          "Furnace burners and gas system auxiliary parts;",
-          "Furnace thermocouples;",
-          "Bushing alloy including jets and bushing (up to 600 nozzles) for 28 pairs;",
-          "Bushing transformers;",
-          "Copper busbars;",
-          "Set of basalt fiber winders;",
-          "Set of basalt fiber cross winderss.",
+      title: {
+        en: "TECHNOLOGICAL COMPLEX FOR THE PRODUCTION OF BASALT CONTINUOUS FIBER",
+        ru: "ТЕХНОЛОГИЧЕСКИЙ КОМПЛЕКС ПО ПРОИЗВОДСТВУ БАЗАЛЬТОВОГО НЕПРЕРЫВНОГО ВОЛОКНА",
+      },
+      olListTitle: {
+        en: [
+          "Technological furnace equipment:",
+          "Gas-Exhaust-Air systems (GEAS):",
+          "Complete plant automation system (PMS):",
+          "Monorail Loader system (MLS):",
+          "Furnace loader system (FLS):",
+          "Sizing Distribution System (SDS):",
+          "Chemical reactor (CHR):",
+          "Raw materials handling system (RMHS):",
+          "Waste Water Treatment and Supply (WWTS):",
+          "Compressed air system (CAS):",
+          "Water Cooling Systems (WCS):",
+          "Product drier system:",
+          "Laboratory complex (LAB):",
         ],
-        [
-          "Ventilators & Smoke exhausters;",
-          "Recuperators and Heat exchangers.",
+        ru: [
+          "Технологическое печное оборудование:",
+          "Системы отвода газов и воздуха (GEAS):",
+          "Полная система автоматизации завода (PMS):",
+          "Система загрузчика монорельса (MLS):",
+          "Система загрузчика печи (FLS):",
+          "Система распределения размеров (SDS):",
+          "Химический реактор (CHR):",
+          "Система транспортировки сырья (RMHS):",
+          "Очистка и подача сточных вод (WWTS):",
+          "Система сжатого воздуха (CAS):",
+          "Системы охлаждения воды (WCS):",
+          "Система сушки продукта:",
+          "Лабораторный комплекс (LAB):",
         ],
-        [
-          "Uninterruptible Electrical power supply unit;",
-          "Frequency converters;",
-          "Cables in assortment.",
+      },
+      p: {
+        en: "The production complex contains different components that form units jointly working as one system. Each unit has its own designation and role in the production process. Here is brief description of the units:",
+        ru: "Производственный комплекс содержит различные компоненты, которые образуют узлы, совместно работающие как одна система. Каждый узел имеет свое собственное назначение и роль в производственном процессе. Вот краткое описание узлов:",
+      },
+      olListItem: {
+        en: [
+          [
+            "Furnace refractory materials;",
+            "Furnace lining and isolation;",
+            "Furnace frame module and auxiliary parts;",
+            "Furnace burners and gas system auxiliary parts;",
+            "Furnace thermocouples;",
+            "Bushing alloy including jets and bushing (up to 600 nozzles) for 28 pairs;",
+            "Bushing transformers;",
+            "Copper busbars;",
+            "Set of basalt fiber winders;",
+            "Set of basalt fiber cross winderss.",
+          ],
+          [
+            "Ventilators & Smoke exhausters;",
+            "Recuperators and Heat exchangers.",
+          ],
+          [
+            "Uninterruptible Electrical power supply unit;",
+            "Frequency converters;",
+            "Cables in assortment.",
+          ],
         ],
-      ],
+        ru: [
+          [
+            "Огнеупорные материалы для печей;",
+            "Футеровка и изоляция печей;",
+            "Модуль каркаса печи и вспомогательные детали;",
+            "Горелки печи и вспомогательные детали газовой системы;",
+            "Термопары печи;",
+            "Втулочный сплав, включая жиклеры и втулки (до 600 сопел) для 28 пар;",
+            "Трансформаторы вводов;",
+            "Медные шины;",
+            "Комплект намотчиков базальтового волокна;",
+            "Комплект перекрестных намотчиков базальтового волокна.",
+          ],
+          ["Вентиляторы и дымососы;", "Рекуператоры и теплообменники."],
+          [
+            "Блок бесперебойного электропитания;",
+            "Преобразователи частоты;",
+            "Кабели в ассортименте.",
+          ],
+        ],
+      },
     },
   },
 };
@@ -1145,26 +1192,47 @@ export const solRockwool = {
   images: [solWool0, solWool1, solWool2, solWool3, solWool4, solWool5],
   videos: [solWoolVid],
   general: {
-    title: "Production of Basalt rockwool",
+    title: {
+      en: "Production of Basalt rockwool",
+      ru: "Производство базальтовой минеральной вата",
+    },
     p: null,
   },
   adv: {
     list: {
-      title:
-        "TECHNOLOGICAL COMPLEX FOR THE PRODUCTION OF BASALT CONTINUOUS ROCKWOOL",
+      title: {
+        en: "TECHNOLOGICAL COMPLEX FOR THE PRODUCTION OF BASALT CONTINUOUS ROCK WOOL",
+        ru: "ТЕХНОЛОГИЧЕСКИЙ КОМПЛЕКС ПО ПРОИЗВОДСТВУ БАЗАЛЬТОВОЙ НЕПРЕРЫВНОЙ МИНЕРАЛЬНОЙ ВАТА",
+      },
       ulListTitle: null,
-      p: "BASALT ENGINEERING CORP provides wide range services for the production of basalt rockwool and other insulation products. For such projects, we provide key solutions such us:",
-      ulListItem: [
-        "Supporting materials;",
-        "Samples;",
-        "Feasibility study;",
-        "Pre-sales support of finished products to form the client’s market;",
-        "Identification of end product’s designation;",
-        "Contracting support with verified suppliers;",
-        "Post commissioning services;",
-        "Product quality optimization;",
-        "Other services (TBA).",
-      ],
+      p: {
+        en: "BASALT ENGINEERING CORP provides wide range services for the production of basalt rockwool and other insulation products. For such projects, we provide key solutions such us: ",
+        ru: "BASALT ENGINEERING CORP предоставляет широкий спектр услуг по производству базальтовой ваты и других изоляционных изделий. Для таких проектов мы предоставляем ключевые решения, такие как: ",
+      },
+      ulListItem: {
+        en: [
+          "Supporting materials;",
+          "Samples;",
+          "Feasibility study;",
+          "Pre-sales support of finished products to form the client’s market;",
+          "Identification of end product’s designation;",
+          "Contracting support with verified suppliers;",
+          "Post commissioning services;",
+          "Product quality optimization;",
+          "Other services (TBA).",
+        ],
+        ru: [
+          "Вспомогательные материалы;",
+          "Образцы;",
+          "Технико-экономическое обоснование;",
+          "Предпродажная поддержка готовой продукции для формирования рынка клиента;",
+          "Определение назначения конечного продукта;",
+          "Поддержка заключения контрактов с проверенными поставщиками;",
+          "Услуги после ввода в эксплуатацию;",
+          "Оптимизация качества продукции;",
+          "Другие услуги (TBA)",
+        ],
+      },
     },
   },
 };
@@ -1173,26 +1241,47 @@ export const solPipes = {
   images: [solPipe1, solPipe2, solPipe3, solPipe4, solPipe6, solPipe5],
   videos: [solPipeVid],
   general: {
-    title: "Production of Basalt continuous pipes",
+    title: {
+      en: "Production of Basalt continuous pipes",
+      ru: "Производство базальтовых непрерывных труб",
+    },
     p: null,
   },
   adv: {
     list: {
-      title:
-        "TECHNOLOGICAL COMPLEX FOR THE PRODUCTION OF BASALT CONTINUOUS PIPES",
+      title: {
+        en: "TECHNOLOGICAL COMPLEX FOR THE PRODUCTION OF BASALT CONTINUOUS PIPES",
+        ru: "ТЕХНОЛОГИЧЕСКИЙ КОМПЛЕКС ПО ПРОИЗВОДСТВУ БАЗАЛЬТОВЫХ НЕПРЕРЫВНЫХ ТРУБ",
+      },
       ulListTitle: null,
-      p: "For such projects, we provide key solutions such us:",
-      ulListItem: [
-        "Supporting materials;",
-        "Samples;",
-        "Feasibility study;",
-        "Pre-sales support of finished products to form the client’s market;",
-        "Identification of end product’s designation;",
-        "Contracting support with verified suppliers;",
-        "Post commissioning services;",
-        "Product quality optimization;",
-        "Other services (TBA).",
-      ],
+      p: {
+        en: "For such projects, we provide key solutions such us:",
+        ru: "Для таких проектов мы предлагаем ключевые решения, такие как:",
+      },
+      ulListItem: {
+        en: [
+          "Supporting materials;",
+          "Samples;",
+          "Feasibility study;",
+          "Pre-sales support of finished products to form the client’s market;",
+          "Identification of end product’s designation;",
+          "Contracting support with verified suppliers;",
+          "Post commissioning services;",
+          "Product quality optimization;",
+          "Other services (TBA).",
+        ],
+        ru: [
+          "Вспомогательные материалы;",
+          "Образцы;",
+          "Технико-экономическое обоснование;",
+          "Предпродажная поддержка готовой продукции для формирования рынка клиента;",
+          "Определение назначения конечного продукта;",
+          "Поддержка заключения контрактов с проверенными поставщиками;",
+          "Услуги после ввода в эксплуатацию;",
+          "Оптимизация качества продукции;",
+          "Другие услуги (TBA)",
+        ],
+      },
     },
   },
 };
@@ -1201,26 +1290,47 @@ export const solStrand = {
   images: [solStrand1, solStrand2, solStrand3, solStrand4, solStrand5],
   videos: [solStrandVid],
   general: {
-    title: "Production of Basalt continuous chopped strand",
+    title: {
+      en: "Production of Basalt continuous chopped strand",
+      ru: "Производство непрерывной рубленой базальтовой нити",
+    },
     p: null,
   },
   adv: {
     list: {
-      title:
-        "TECHNOLOGICAL COMPLEX FOR THE PRODUCTION OF BASALT CONTINUOUS CHOPPED STRAND",
+      title: {
+        en: "TECHNOLOGICAL COMPLEX FOR THE PRODUCTION OF BASALT CONTINUOUS CHOPPED STRAND",
+        ru: "ТЕХНОЛОГИЧЕСКИЙ КОМПЛЕКС ПО ПРОИЗВОДСТВУ БАЗАЛЬТОВОЙ НЕПРЕРЫВНОЙ РУБЛЕНОЙ ПРЯДИ",
+      },
       ulListTitle: null,
-      p: "For such projects, we provide key solutions such us:",
-      ulListItem: [
-        "Supporting materials;",
-        "Samples;",
-        "Feasibility study;",
-        "Pre-sales support of finished products to form the client’s market;",
-        "Identification of end product’s designation;",
-        "Contracting support with verified suppliers;",
-        "Post commissioning services;",
-        "Product quality optimization;",
-        "Other services (TBA).",
-      ],
+      p: {
+        en: "For such projects, we provide key solutions such us:",
+        ru: "Для таких проектов мы предлагаем ключевые решения, такие как:",
+      },
+      ulListItem: {
+        en: [
+          "Supporting materials;",
+          "Samples;",
+          "Feasibility study;",
+          "Pre-sales support of finished products to form the client’s market;",
+          "Identification of end product’s designation;",
+          "Contracting support with verified suppliers;",
+          "Post commissioning services;",
+          "Product quality optimization;",
+          "Other services (TBA).",
+        ],
+        ru: [
+          "Вспомогательные материалы;",
+          "Образцы;",
+          "Технико-экономическое обоснование;",
+          "Предпродажная поддержка готовой продукции для формирования рынка клиента;",
+          "Определение назначения конечного продукта;",
+          "Поддержка заключения контрактов с проверенными поставщиками;",
+          "Услуги после ввода в эксплуатацию;",
+          "Оптимизация качества продукции;",
+          "Другие услуги (TBA).",
+        ],
+      },
     },
   },
 };
@@ -1229,16 +1339,26 @@ export const solBars = {
   images: [solBar1, solBar2, solBar3, solBar4, solBar5],
   videos: [solBarVid],
   general: {
-    title: "Production of Basalt reinforcement bars",
+    title: {
+      en: "Production of Basalt reinforcement bars",
+      ru: "Производство базальтовой арматуры"
+    },
     p: null,
   },
   adv: {
     list: {
       title:
-        "TECHNOLOGICAL COMPLEX FOR THE PRODUCTION OF BASALT REINFORCEMENT BARS",
+        {
+          en: "TECHNOLOGICAL COMPLEX FOR THE PRODUCTION OF BASALT REINFORCEMENT BARS",
+          ru: "ТЕХНОЛОГИЧЕСКИЙ КОМПЛЕКС ПО ПРОИЗВОДСТВУ БАЗАЛЬТОВОЙ АРМАТУРЫ"
+        },
       ulListTitle: null,
-      p: "For such projects, we provide key solutions such us:",
-      ulListItem: [
+      p: {
+        en: "For such projects, we provide key solutions such us:",
+        ru: "Для таких проектов мы предлагаем ключевые решения, такие как:",
+      },
+      ulListItem: {
+        en: [
         "OEM, ODM & OBM services",
         "Supporting materials;",
         "Samples;",
@@ -1250,6 +1370,19 @@ export const solBars = {
         "Product quality optimization;",
         "Other services (TBA).",
       ],
+      ru: [
+        "Услуги OEM, ODM и OBM",
+        "Вспомогательные материалы;",
+        "Образцы;",
+        "Технико-экономическое обоснование;",
+        "Предпродажная поддержка готовой продукции для формирования рынка клиента;",
+        "Определение назначения конечного продукта;",
+        "Поддержка заключения контрактов с проверенными поставщиками;",
+        "Услуги после ввода в эксплуатацию;",
+        "Оптимизация качества продукции;",
+        "Другие услуги (TBA).",
+        ],
+    },
     },
   },
 };
@@ -1287,26 +1420,47 @@ export const solGeogrid = {
   ],
   videos: [solMeshVid],
   general: {
-    title: "Production of Basalt geogrids and facade mesh",
+    title: {
+      en: "Production of Basalt geogrids and facade mesh",
+      ru: "Производство базальтовых георешеток и фасадных сеток",
+    },
     p: null,
   },
   adv: {
     list: {
-      title:
-        "TECHNOLOGICAL COMPLEX FOR THE PRODUCTION OF BASALT GEOGRIDS AND FACADE MESH",
+      title: {
+        en: "TECHNOLOGICAL COMPLEX FOR THE PRODUCTION OF BASALT GEOGRIDS AND FACADE MESH",
+        ru: "ТЕХНОЛОГИЧЕСКИЙ КОМПЛЕКС ПО ПРОИЗВОДСТВУ БАЗАЛЬТОВЫХ ГЕОСЕТОК И ФАСАДНЫХ СЕТОК",
+      },
       ulListTitle: null,
-      p: "For such projects, we provide key solutions such us:",
-      ulListItem: [
-        "Supporting materials;",
-        "Samples;",
-        "Feasibility study;",
-        "Pre-sales support of finished products to form the client’s market;",
-        "Identification of end product’s designation;",
-        "Contracting support with verified suppliers;",
-        "Post commissioning services;",
-        "Product quality optimization;",
-        "Other services (TBA).",
-      ],
+      p: {
+        en: "For such projects, we provide key solutions such us:",
+        ru: "Для таких проектов мы предлагаем ключевые решения, такие как:",
+      },
+      ulListItem: {
+        en: [
+          "Supporting materials;",
+          "Samples;",
+          "Feasibility study;",
+          "Pre-sales support of finished products to form the client’s market;",
+          "Identification of end product’s designation;",
+          "Contracting support with verified suppliers;",
+          "Post commissioning services;",
+          "Product quality optimization;",
+          "Other services (TBA).",
+        ],
+        ru: [
+          "Вспомогательные материалы;",
+          "Образцы;",
+          "Технико-экономическое обоснование;",
+          "Предпродажная поддержка готовой продукции для формирования рынка клиента;",
+          "Определение назначения конечного продукта;",
+          "Поддержка заключения контрактов с проверенными поставщиками;",
+          "Услуги после ввода в эксплуатацию;",
+          "Оптимизация качества продукции;",
+          "Другие услуги (TBA).",
+        ],
+      },
     },
   },
 };
@@ -1326,26 +1480,47 @@ export const solFabric = {
   ],
   videos: [solFabricVid, solFabricVid2],
   general: {
-    title: "Production of Basalt fabric",
+    title: {
+      en: "Production of Basalt fabric",
+      ru: "Производство базальтовой ткани",
+    },
     p: null,
   },
   adv: {
     list: {
-      title:
-        "TECHNOLOGICAL COMPLEX FOR THE PRODUCTION OF BASALT FABRIC AND TWISTED YARN",
+      title: {
+        en: "TECHNOLOGICAL COMPLEX FOR THE PRODUCTION OF BASALT FABRIC AND TWISTED YARN",
+        ru: "ТЕХНОЛОГИЧЕСКИЙ КОМПЛЕКС ПО ПРОИЗВОДСТВУ БАЗАЛЬТОВОЙ ТКАНИ И КРУТОЙ НИТИ",
+      },
       ulListTitle: null,
-      p: "For such projects, we provide key solutions such us:",
-      ulListItem: [
-        "Supporting materials;",
-        "Samples;",
-        "Feasibility study;",
-        "Pre-sales support of finished products to form the client’s market;",
-        "Identification of end product’s designation;",
-        "Contracting support with verified suppliers;",
-        "Post commissioning services;",
-        "Product quality optimization;",
-        "Other services (TBA).",
-      ],
+      p: {
+        en: "For such projects, we provide key solutions such us:",
+        ru: "Для таких проектов мы предлагаем ключевые решения, такие как:",
+      },
+      ulListItem: {
+        en: [
+          "Supporting materials;",
+          "Samples;",
+          "Feasibility study;",
+          "Pre-sales support of finished products to form the client’s market;",
+          "Identification of end product’s designation;",
+          "Contracting support with verified suppliers;",
+          "Post commissioning services;",
+          "Product quality optimization;",
+          "Other services (TBA).",
+        ],
+        ru: [
+          "Вспомогательные материалы;",
+          "Образцы;",
+          "Технико-экономическое обоснование;",
+          "Предпродажная поддержка готовой продукции для формирования рынка клиента;",
+          "Определение назначения конечного продукта;",
+          "Поддержка заключения контрактов с проверенными поставщиками;",
+          "Услуги после ввода в эксплуатацию;",
+          "Оптимизация качества продукции;",
+          "Другие услуги (TBA).",
+        ],
+      },
     },
   },
 };
