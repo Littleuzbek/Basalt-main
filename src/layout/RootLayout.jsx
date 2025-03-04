@@ -1,4 +1,4 @@
-import { Link, NavLink, Outlet, replace, useLocation, useNavigate, useParams } from "react-router";
+import { Link, NavLink, Outlet, data, replace, useLocation, useNavigate, useParams } from "react-router";
 import { useEffect, useState } from "react";
 import logo from "../assets/logo.png";
 import entrance from "../assets/entrance1.jpg";
@@ -40,6 +40,10 @@ export default function RootLayout() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
+
+    if(lang !== "en" && lang !== "ru"){
+      throw data("Page not Found", {status: 404})
+    }
   }, [link]);
 
   const navigationHandler = () => {
@@ -69,10 +73,10 @@ export default function RootLayout() {
         style={link.pathname === `/${lang}` ? { display: "none" } : {}}
       >
         <div>
-          <img src={logo} alt="" onClick={() => navigate("/")} />
+          <img src={logo} alt="" onClick={() => navigate(`/${lang}`)} />
           <ul>
             <li>
-              <NavLink to="/">{lang === "en" ? "Home" : "Главный"}</NavLink>
+              <Link to={`/${lang}`}>{lang === "en" ? "Home" : "Главный"}</Link>
             </li>
             <li>
               <NavLink to={`/${lang}/projects`}>
@@ -307,7 +311,7 @@ export default function RootLayout() {
           {link.pathname.includes("/projects") ||
             link.pathname.includes("/solutions") ||
             link.pathname.includes("/about-us") || (
-              <img src={entrance} alt="" onClick={() => navigate("/")} />
+              <img src={entrance} alt="" onClick={() => navigate(`/${lang}`)} />
             )}
           {link.pathname.includes("/projects") && (
             <video
@@ -369,10 +373,10 @@ export default function RootLayout() {
 
       <div className="nav-container" id="header">
         <div>
-          <img src={logo} alt="" onClick={() => navigate("/")} />
+          <img src={logo} alt="" onClick={() => navigate(`/${lang}`)} />
           <ul className="navigation">
             <li>
-              <NavLink to="/">{lang === "en" ? "Home" : "Главный"}</NavLink>
+              <NavLink to={`/${lang}`}>{lang === "en" ? "Home" : "Главный"}</NavLink>
             </li>
             <li>
               <NavLink to={`/${lang}/projects`}>
