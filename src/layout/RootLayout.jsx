@@ -179,6 +179,24 @@ export default function RootLayout() {
             <li>
               <NavLink to={`/${lang}/contact-us`}>{lang === "en" ? "Contact Us" : "Связаться"}</NavLink>
             </li>
+            <li>
+              <div className="lang-container">
+                <img src={lang === "en" ? en : ru} alt="" />
+                <p style={{ textTransform: "uppercase", color: "black" }}>
+                  {lang === "en" ? "EN" : "RU"}
+                </p>
+              </div>
+              <div className="navigation-drop">
+                <Link
+                  to={nextLang}
+                  replace={true}
+                  onClick={() => langHandler(lang === "en" ? "ru" : "en")}
+                >
+                  <img src={lang === "en" ? ru : en} alt="" />
+                  <p>{lang === "en" ? "RU" : "EN"}</p>
+                </Link>
+              </div>
+            </li>
           </ul>
 
           {/* mobile menu */}

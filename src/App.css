@@ -258,17 +258,36 @@ body {
 
 .main-header > div > ul > li {
   position: relative;
-  ;
+  display: flex;
+  align-items: center;
 }
 
 .main-header > div > ul > li:nth-child(2):hover > .navigation-drop {
   display: flex;
-  top: 250%;
 }
 
 .main-header > div > ul > li:nth-child(3):hover > .navigation-drop {
   display: flex;
-  top: 250%;
+}
+
+.main-header > div > ul > li:nth-last-child(1):hover > .navigation-drop {
+  display: flex;
+}
+
+.main-header > div > ul > li:nth-last-child(1):hover > .navigation-drop > a {
+  padding: 15px;
+}
+
+.lang-container{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 40px 15px;
+}
+
+.lang-container > img{
+  width: 20px;
+  height: 20px;
 }
 
 .menuBtn{
